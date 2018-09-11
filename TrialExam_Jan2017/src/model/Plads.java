@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class Plads {
     private int nr;
-    private Område område;
+    private OmrÃ¥de omrÃ¥de;
 
     private ArrayList<Reservation> reservationer = new ArrayList<>();
 
-    public Plads(int nr, Område område) {
+    public Plads(int nr, OmrÃ¥de omrÃ¥de) {
         setNr(nr);
-        setOmråde(område);
+        setOmrÃ¥de(omrÃ¥de);
     }
 
     public ArrayList<Reservation> getReservationer() {
@@ -33,11 +33,11 @@ public class Plads {
         this.nr = nr;
     }
 
-    public Område getOmråde() {
-        return område;
+    public OmrÃ¥de getOmrÃ¥de() {
+        return omrÃ¥de;
     }
 
-    public void setOmråde(Område område) {
-        this.område = område;
+    public void setOmrÃ¥de(OmrÃ¥de omrÃ¥de) {
+        this.omrÃ¥de = omrÃ¥de;
     }
 }

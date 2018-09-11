@@ -1,5 +1,5 @@
 package opgave5;
 
-public class Indkøbskurv {
+public class IndkÃ¸bskurv {
 
 }

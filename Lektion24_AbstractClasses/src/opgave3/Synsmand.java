@@ -3,11 +3,11 @@ package opgave3;
 public class Synsmand extends Mekaniker {
 
     private int syn;
-    private double synstillæg;
+    private double synstillÃ¦g;
 
-    public Synsmand(String navn, String adresse, int svendeprøve, double timeløn, double arbejdstimer,
-            double synstillæg) {
-        super(navn, adresse, svendeprøve, timeløn, arbejdstimer);
+    public Synsmand(String navn, String adresse, int svendeprÃ¸ve, double timelÃ¸n, double arbejdstimer,
+            double synstillÃ¦g) {
+        super(navn, adresse, svendeprÃ¸ve, timelÃ¸n, arbejdstimer);
         syn = 0;
     }
 
@@ -19,13 +19,13 @@ public class Synsmand extends Mekaniker {
         this.syn = syn;
     }
 
-    public void setSynstillæg(double synstillæg) {
-        this.synstillæg = synstillæg;
+    public void setSynstillÃ¦g(double synstillÃ¦g) {
+        this.synstillÃ¦g = synstillÃ¦g;
     }
 
     @Override
-    public double ugeLøn() {
-        return super.ugeLøn() + syn * synstillæg;
+    public double ugeLÃ¸n() {
+        return super.ugeLÃ¸n() + syn * synstillÃ¦g;
     }
 
 }

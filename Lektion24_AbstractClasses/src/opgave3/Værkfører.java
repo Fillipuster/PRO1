@@ -1,36 +1,36 @@
 package opgave3;
 
-public class Værkfører extends Ansat {
+public class VÃ¦rkfÃ¸rer extends Ansat {
 
-    private int udnævnelse;
-    private double ugeTilæg;
+    private int udnÃ¦vnelse;
+    private double ugeTilÃ¦g;
 
-    public Værkfører(String navn, String adresse, int udnævnelse, double timeløn, double arbejdstimer,
-            double ugeTillæg) {
-        super(navn, adresse, timeløn, arbejdstimer);
-        setUdnævnelse(udnævnelse);
-        setUgeTilæg(ugeTilæg);
+    public VÃ¦rkfÃ¸rer(String navn, String adresse, int udnÃ¦vnelse, double timelÃ¦n, double arbejdstimer,
+            double ugeTillÃ¦g) {
+        super(navn, adresse, timelÃ¦n, arbejdstimer);
+        setUdnÃ¦vnelse(udnÃ¦vnelse);
+        setUgeTilÃ¦g(ugeTilÃ¦g);
     }
 
-    public int getUdnævnelse() {
-        return udnævnelse;
+    public int getUdnÃ¦vnelse() {
+        return udnÃ¦vnelse;
     }
 
-    public void setUdnævnelse(int udnævnelse) {
-        this.udnævnelse = udnævnelse;
+    public void setUdnÃ¦vnelse(int udnÃ¦vnelse) {
+        this.udnÃ¦vnelse = udnÃ¦vnelse;
     }
 
-    public double getUgeTilæg() {
-        return ugeTilæg;
+    public double getUgeTilÃ¦g() {
+        return ugeTilÃ¦g;
     }
 
-    public void setUgeTilæg(double ugeTilæg2) {
-        this.ugeTilæg = ugeTilæg2;
+    public void setUgeTilÃ¦g(double ugeTilÃ¦g2) {
+        this.ugeTilÃ¦g = ugeTilÃ¦g2;
     }
 
     @Override
-    public double ugeLøn() {
-        return getTimeløn() * getArbejdstimer() + ugeTilæg;
+    public double ugeLÃ¸n() {
+        return getTimelÃ¸n() * getArbejdstimer() + ugeTilÃ¦g;
     }
 
 }

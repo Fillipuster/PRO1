@@ -4,23 +4,23 @@ import java.util.ArrayList;
 
 public abstract class Ansat extends Person {
 
-    private double timeløn;
+    private double timelÃ¸n;
     private double arbejdstimer;
     private static ArrayList<Ansat> ansatte = new ArrayList<>();
 
-    public Ansat(String navn, String adresse, double timeløn, double arbejdstimer) {
+    public Ansat(String navn, String adresse, double timelÃ¸n, double arbejdstimer) {
         super(navn, adresse);
-        this.timeløn = timeløn;
+        this.timelÃ¸n = timelÃ¸n;
         this.arbejdstimer = arbejdstimer;
         ansatte.add(this);
     }
 
-    public double getTimeløn() {
-        return timeløn;
+    public double getTimelÃ¸n() {
+        return timelÃ¸n;
     }
 
-    public void setTimeløn(double timeløn) {
-        this.timeløn = timeløn;
+    public void setTimelÃ¸n(double timelÃ¸n) {
+        this.timelÃ¸n = timelÃ¸n;
     }
 
     public double getArbejdstimer() {
@@ -31,12 +31,12 @@ public abstract class Ansat extends Person {
         this.arbejdstimer = arbejdstimer;
     }
 
-    public abstract double ugeLøn();
+    public abstract double ugeLÃ¸n();
 
-    public static double samletUgeløn() {
+    public static double samletUgelÃ¸n() {
         double sum = 0;
         for (Ansat a : ansatte) {
-            sum += a.ugeLøn();
+            sum += a.ugeLÃ¸n();
         }
 
         return sum;

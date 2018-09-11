@@ -13,7 +13,7 @@ public class Spillermetoder {
         return null;
     }
 
-    public Spiller findScoreBin�r(ArrayList<Spiller> spillere, int score) {
+    public Spiller findScoreBinær(ArrayList<Spiller> spillere, int score) {
         boolean found = false;
         int left = 0;
         int right = spillere.size() - 1;
@@ -62,8 +62,8 @@ public class Spillermetoder {
         System.out.println("Spiller der har scoret 35 mål: " + metoder.findScoreLinear(spillerListe, 35));
         System.out.println("Spiller der har scoret 30 mål: " + metoder.findScoreLinear(spillerListe, 30));
 
-        System.out.println("Spiller der har scoret 35 mål: " + metoder.findScoreBin�r(spillerListe, 35));
-        System.out.println("Spiller der har scoret 30 mål: " + metoder.findScoreBin�r(spillerListe, 30));
+        System.out.println("Spiller der har scoret 35 mål: " + metoder.findScoreBinær(spillerListe, 35));
+        System.out.println("Spiller der har scoret 30 mål: " + metoder.findScoreBinær(spillerListe, 30));
 
         System.out.println(metoder.godSpiller(spillerListe) + " er en god spiller.");
     }

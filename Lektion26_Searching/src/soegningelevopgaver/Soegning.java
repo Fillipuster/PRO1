@@ -17,7 +17,7 @@ public class Soegning {
         return false;
     }
 
-    public static int findFørsteInterval(int[] tabel, int intervalStart, int intervalSlut) {
+    public static int findFÃ¸rsteInterval(int[] tabel, int intervalStart, int intervalSlut) {
         for (int v : tabel) {
             if (v > intervalStart && v < intervalSlut) {
                 return v;

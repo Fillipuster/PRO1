@@ -2,13 +2,13 @@ package opgave3;
 
 public class Arbejdsdreng extends Ansat {
 
-    public Arbejdsdreng(String navn, String adresse, double timeløn, double arbejdstimer) {
-        super(navn, adresse, timeløn, arbejdstimer);
+    public Arbejdsdreng(String navn, String adresse, double timelÃ¸n, double arbejdstimer) {
+        super(navn, adresse, timelÃ¸n, arbejdstimer);
     }
 
     @Override
-    public double ugeLøn() {
-        return getTimeløn() * getArbejdstimer();
+    public double ugeLÃ¸n() {
+        return getTimelÃ¸n() * getArbejdstimer();
     }
 
 }

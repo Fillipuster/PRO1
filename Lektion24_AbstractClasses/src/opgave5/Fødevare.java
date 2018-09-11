@@ -2,11 +2,11 @@ package opgave5;
 
 import java.time.LocalDate;
 
-public class Fødevare extends Vare {
+public class FÃ¸devare extends Vare {
 
     LocalDate bestBeforeDate;
 
-    public Fødevare(String name, String description, double price, LocalDate bestBeforeDate) {
+    public FÃ¸devare(String name, String description, double price, LocalDate bestBeforeDate) {
         super(name, description, price);
         this.bestBeforeDate = bestBeforeDate;
     }

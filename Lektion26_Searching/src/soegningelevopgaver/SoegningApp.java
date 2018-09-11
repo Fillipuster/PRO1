@@ -15,7 +15,7 @@ public class SoegningApp {
         System.out.println("Er der et ulige tal i a1? " + Soegning.findUlige(a1));
 
         int[] a2 = { 7, 2, 0, 62, 46, 13, 14, 17, 88, 3 };
-        System.out.println("Første heltal mellem 10 og 15 i a2: " + Soegning.findF�rsteInterval(a2, 10, 15));
+        System.out.println("Første heltal mellem 10 og 15 i a2: " + Soegning.findFørsteInterval(a2, 10, 15));
 
         int[] a3 = { 0, 1, 2, 3, 4, 5, 6, 7 };
         System.out.println("Er der 2-tals sekvens i a3? " + Soegning.ensTalSekvens(a3));

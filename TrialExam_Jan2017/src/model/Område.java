@@ -1,5 +1,5 @@
 package model;
 
-public enum Område {
-    STANDARD, VIP, BØRNE, TURNERING;
+public enum OmrÃ¥de {
+    STANDARD, VIP, BÃ˜RNE, TURNERING;
 }

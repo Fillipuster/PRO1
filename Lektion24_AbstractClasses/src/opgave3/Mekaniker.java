@@ -2,24 +2,24 @@ package opgave3;
 
 public class Mekaniker extends Ansat {
 
-    private int svendeprøve;
+    private int svendeprÃ¸ve;
 
-    public Mekaniker(String navn, String adresse, int svendeprøve, double timeløn, double arbejdstimer) {
-        super(navn, adresse, timeløn, arbejdstimer);
-        setSvendeprøve(svendeprøve);
+    public Mekaniker(String navn, String adresse, int svendeprÃ¸ve, double timelÃ¸n, double arbejdstimer) {
+        super(navn, adresse, timelÃ¸n, arbejdstimer);
+        setSvendeprÃ¸ve(svendeprÃ¸ve);
     }
 
-    public int getSvendeprøve() {
-        return svendeprøve;
+    public int getSvendeprÃ¸ve() {
+        return svendeprÃ¸ve;
     }
 
-    public void setSvendeprøve(int svendeprøve) {
-        this.svendeprøve = svendeprøve;
+    public void setSvendeprÃ¸ve(int svendeprÃ¸ve) {
+        this.svendeprÃ¸ve = svendeprÃ¸ve;
     }
 
     @Override
-    public double ugeLøn() {
-        return getTimeløn() * getArbejdstimer();
+    public double ugeLÃ¸n() {
+        return getTimelÃ¸n() * getArbejdstimer();
     }
 
 }

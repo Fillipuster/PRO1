@@ -29,7 +29,7 @@ public class Vare {
     }
 
     public double getMoms() {
-        if (this instanceof Fødevare) {
+        if (this instanceof FÃ¸devare) {
             return 0.05;
         }
 
