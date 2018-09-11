@@ -1,0 +1,46 @@
+package opgave010203;
+
+public class Person {
+    private String name;
+    private String title;
+    private boolean senior;
+
+    public Person(String name, String title, boolean senior) {
+        this.name = name;
+        this.title = title;
+        this.senior = senior;
+    }
+
+    @Override
+    public String toString() {
+        String str = title + " - " + name;
+        if (senior) {
+            str += " Sr.";
+        }
+        return str;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public boolean isSenior() {
+        return senior;
+    }
+
+    public void setSenior(boolean senior) {
+        this.senior = senior;
+    }
+}
