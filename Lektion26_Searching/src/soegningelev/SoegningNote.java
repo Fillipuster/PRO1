@@ -10,7 +10,7 @@ public class SoegningNote {
 			if (list.get(i).equals(target))
 				found = true;
 			else
-				i++;		
+				i++;
 		}
 		if (found)
 			return i;
